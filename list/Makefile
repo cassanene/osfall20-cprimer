@@ -2,9 +2,9 @@
 #
 # Makefile for list implementation and test file.
 #
-# Solomon Lucas / Cassey Anene / Emmanuel Fowora / Chima Egbuji
+# Cassey Anene / @02879027
 
 list: main.c
-	gcc -o main list.c list.h main.c
+	gcc -o list list.c main.c
 	
 
