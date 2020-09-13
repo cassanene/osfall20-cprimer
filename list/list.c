@@ -212,7 +212,8 @@ elem list_get_elem_at(list_t *l, int index)
 
     node_t *currNode = l->head;
 
-    for (int i = 0; i < index; i++)
+    int i = 0;
+    for (i = 0; i < index; i++)
     {
 
         if (currNode->next == NULL)
