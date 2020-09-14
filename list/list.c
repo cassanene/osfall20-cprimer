@@ -64,7 +64,7 @@ void list_add_to_back(list_t *l, elem value)
     t->next = NULL;
     if (l->head == NULL) // if there is no head
     {
-        l->head = t; // adding this new node to the front ass the head
+        l->head = t; // adding this new node to the front as the head
     }
     else // add it to the last node
     {
